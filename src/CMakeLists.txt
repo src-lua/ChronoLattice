@@ -7,7 +7,7 @@
 message(STATUS "Configuring ChronoLattice (v${PROJECT_VERSION}).")
 
 file(GLOB CRLT_SOURCES
-    "src/engine/*.cpp"
+    "src/core/*.cpp"
     "src/parser/*.cpp"
     "src/main.cpp"
 )

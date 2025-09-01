@@ -1,7 +1,7 @@
-#ifndef PARSER_H
-#define PARSER_H
+#ifndef PARSER_PARSER_HPP
+#define PARSER_PARSER_HPP
 
-#include "engine/ChronoLattice.hpp"
+#include "core/schedule.hpp"
 
 #include <filesystem>
 
@@ -17,4 +17,4 @@ ProjectGraph parse_task_file(const std::filesystem::path& filename);
 
 } // namespace ChronoLattice
 
-#endif // PARSER_H
+#endif // PARSER_PARSER_HPP
